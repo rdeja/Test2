@@ -1,0 +1,9 @@
+
+git remote add origin https://[USERNAME]:[NEW TOKEN]@github.com/[USERNAME]/[REPO].git
+git remote set-url origin https://[TOKEN]@git.mycompany.com/[ORGANIZATION]/[REPO].git
+
+git branch -m <name>
+git branch --move master main
+git push --set-upstream origin main
+git push origin --delete master
+
